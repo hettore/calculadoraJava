@@ -11,7 +11,7 @@ public class Main {
 		//String operador;
 		
 		//operador = sc.next();
-		//use a primeira posição (C) para indormar a operação que são respectivamente 1 para somar e 2 para subtrair.
+		//use a primeira posição (C) para adicionar a operação que são respectivamente 1 para somar e 2 para subtrair.
 		
 		C = sc.nextInt();
 		A = sc.nextInt();
@@ -22,15 +22,15 @@ public class Main {
 		
 		
 		if (C == 1) {
-			System.out.printf("A soma é " + (A + B ));
+			System.out.printf("O resultado da soma é = " + (A + B ));
 		}
 		
 		else if (C == 2) {
-			System.out.println("A subtração é " + (A - B));
+			System.out.println("O resultado da subtração é = " + (A - B));
 		}
 		
 		else {
-			System.out.println("Por favor informe uma operação");
+			System.out.println("Por favor informe uma operação valida sendo 1 para somar e 2 para subtrair.");
 		}
 		
 		
