@@ -23,7 +23,7 @@ public class Main {
 		
 		
 		if (C == 1) {
-			System.out.printf("O resultado da soma é = " + (A + B ));
+			System.out.println("O resultado da soma é = " + (A + B ));
 		}
 		
 		else if (C == 2) {
@@ -33,8 +33,14 @@ public class Main {
 		else if (C == 3) {
 			System.out.println("O resultado da multiplicação é = " + (A * B));
 		}
+		
+		else if (C == 4) {
+			double d = A;
+			double e = B;
+			System.out.printf("O resultado da divisão é =  %.2f%n" , (d / e));
+		}
 		else {
-			System.out.println("Por favor informe uma operação valida sendo 1 para somar, 2 para subtrair ou 3 para multiplicar.");
+			System.out.println("Por favor informe uma operação válida, sendo 1 para somar, 2 para subtrair, 3 para multiplicar ou 4 para dividir.");
 		}
 		
 		
