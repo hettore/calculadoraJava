@@ -8,19 +8,9 @@ public class Main {
 		
 		int A, B, C;
 		
-		//String operador;
-		
-		//operador = sc.next();
-		//use a primeira posição (C) para adicionar a operação que são respectivamente 1 para somar e 2 para subtrair.
-		//System.out.println("Por favor para usar a calculadora vc deve apertar enter após essa mensagem e escolher a operação desejada usando o numero 1 para somar o 2 para subtrair ou o 3 para multiplicar");
-		
 		C = sc.nextInt();
 		A = sc.nextInt();
 		B = sc.nextInt();
-		
-		//System.out.printf("o resultado é " + operador);
-		
-		
 		
 		if (C == 1) {
 			System.out.println("O resultado da soma é = " + (A + B ));
@@ -42,11 +32,6 @@ public class Main {
 		else {
 			System.out.println("Por favor informe uma operação válida, sendo 1 para somar, 2 para subtrair, 3 para multiplicar ou 4 para dividir.");
 		}
-		
-		
-		
-		
-		
 		
 		
 		sc.close();
