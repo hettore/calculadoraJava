@@ -8,8 +8,11 @@ public class Main {
 		
 		int A, B, C;
 		
+		System.out.println("insira o numero 1-Soma 2-Subtração 3-Multiplicação ou 4-Divisão. ");
 		C = sc.nextInt();
+		System.out.println("Insira o primeiro número: ");
 		A = sc.nextInt();
+		System.out.println("Insira o segundo número: ");
 		B = sc.nextInt();
 		
 		if (C == 1) {
