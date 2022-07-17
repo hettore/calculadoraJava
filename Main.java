@@ -15,6 +15,7 @@ public class Main {
 		System.out.println("Insira o segundo número: ");
 		B = sc.nextInt();
 		
+		
 		if (C == 1) {
 			System.out.println("O resultado da soma é = " + (A + B ));
 		}
@@ -38,6 +39,8 @@ public class Main {
 		
 		
 		sc.close();
+		
+		
 		
 		
 	}
